@@ -6,9 +6,9 @@ Ranges of Int:
 - Long long int(64 bit): -9x10^18~9x10^18
 
 Given:
-❌int a=123456789;
-long long b = a * a;
-✔long a = 123456789;
-long long b = a * a;
-✔int a=123456789;
+❌int a=123456789; \n
+long long b = a * a; \n
+✔long a = 123456789;\n
+long long b = a * a;\n
+✔int a=123456789;\n
 long long b = (long long) a * a;
