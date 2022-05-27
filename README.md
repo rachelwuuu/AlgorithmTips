@@ -12,3 +12,7 @@ long long b = a * a;
 long long b = a * a;  
 ✔int a=123456789;  
 long long b = (long long) a * a;  
+
+<b>Comparing Two Floating Numbers:</b>
+❌if(a==b)
+✔if(abs(a-b)<1e-9)
