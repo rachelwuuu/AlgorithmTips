@@ -7,11 +7,17 @@ Disclaimer: The following notes are taken from the book "Competitive Programmer'
 - double: 64 bit
 - long double: 80 bit
 <b>Given:</b>  
+
 ❌int a=123456789;  
+
 long long b = a * a;  
+
 ✔long a = 123456789;  
+
 long long b = a * a;  
+
 ✔int a=123456789;  
+
 long long b = (long long) a * a;  
 
 <b>Comparing Two Floating Numbers:</b>
