@@ -4,7 +4,7 @@ Disclaimer: The following notes are taken from the book "Competitive Programmer'
 <b>Ranges of Int:</b></br>  
 - int (32 bit): -2x10^9~2x10^9</br>  
 - Long long int(64 bit): -9x10^18~9x10^18</br>  
-- double: 64 bit  
+- double: 64 bit</br>  
 - long double: 80 bit   
  
 <b>Given:</b>  
