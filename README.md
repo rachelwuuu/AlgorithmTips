@@ -21,3 +21,9 @@ long long b = (long long) a * a;
 - Difficulty: Some numbers can not be represented accurately.</BR>
   eg. double x = 0.3 * 3 + 0.1;
       printf("%.20f\n", x); //0.99999999999999988898
+
+Shortening code
+
+eg. typedef vector<int> vi;
+
+typedef pair<int> pi;
