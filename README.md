@@ -23,5 +23,5 @@ long long b = (long long) a * a;
       printf("%.20f\n", x); //0.99999999999999988898
 
 <b>Shortening code</b>  
-#eg. typedef vector <int> vi;  
+eg. typedef vector <int<int>> vi;  
 typedef pair <int, int> pi;  
