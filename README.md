@@ -25,3 +25,9 @@ long long b = (long long) a * a;
 <b>Shortening code</b>  
 eg. typedef vector <int<int>> vi;  
 typedef pair <int, int> pi;  
+
+<b>Sum formulas</b>  </br>
+- sum of x from 1 to n = n(n+1)/2  
+- sum of x^2 from 1 to n = n(n+1)(2n+1)/6  
+- sum of n numbers where the difference between two consecutive numbers is constant a,...,b (in order) = n(a+b)/2
+- sum of n numbers where the ratio k between two consecutive numbers is constant a,...,b (in order) = 
