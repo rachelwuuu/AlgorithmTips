@@ -31,5 +31,5 @@ typedef pair <int, int> pi;
 - sum of x^2 from 1 to n = n(n+1)(2n+1)/6  
 - sum of n numbers where the difference between two consecutive numbers is constant a+...+b (in order) = n(a+b)/2
 - sum of n numbers where the ratio k between two consecutive numbers is constant a+ak+...+b (in order) = (bk-a)/(k-1)
-- Fibonacci Numbers: f(0)=0, f(1)=1, f(n)=f(n-1)+f(n-2)
+- Fibonacci Numbers: f(0)=0, f(1)=1, f(n)=f(n-1)+f(n-2)  
   Binet's formula: f(n)=((1 + sqrt(5))^n - (1 - sqrt(5))^n)/(2^n * sqrt(5))
