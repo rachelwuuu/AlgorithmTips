@@ -1,5 +1,5 @@
 # AlgorithmTips
-Disclaimer: The following notes are taken from the book "Competitive Programmer's Handbook"
+Disclaimer: The following notes are taken from the book "Competitive Programmer's Handbook" by Antti Laaksonen. Available at: https://cses.fi/book/book.pdf
 <h1>Numbers</h1>
 <b>Ranges of Int:</b></br>  
 - int (32 bit): -2x10^9~2x10^9</br>  
