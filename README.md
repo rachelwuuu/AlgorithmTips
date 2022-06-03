@@ -37,5 +37,5 @@ typedef pair <int, int> pi;
 <b>Logarithms</b>
 - logk(ab)=logk(a)+logk(b)
 - logu(x)=logk(x)/logk(u)
-- The number of digits of an integer x in base b: ⌊logb(x)+1⌋
+- The number of digits of an integer x in base b: ⌊logb(x)+1⌋  
   eg. 123 in base 2 is 1111011 and ⌊log2(123)+1⌋=7
