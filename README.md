@@ -34,5 +34,7 @@ typedef pair <int, int> pi;
 - Fibonacci Numbers: f(0)=0, f(1)=1, f(n)=f(n-1)+f(n-2)  
   Binet's formula: f(n)=((1 + sqrt(5))^n - (1 - sqrt(5))^n)/(2^n * sqrt(5))
 
- logk(ab)=logk(a)+logk(b)
- logu(x)=logk(x)/logk(u)
+<b>Logarithms</b>
+- logk(ab)=logk(a)+logk(b)
+- logu(x)=logk(x)/logk(u)
+- The number of digits of an integer x in base b: ⌊logb(x)+1⌋
