@@ -39,3 +39,7 @@ typedef pair <int, int> pi;
 - logu(x)=logk(x)/logk(u)
 - The number of digits of an integer x in base b: ⌊logb(x)+1⌋  
   eg. 123 in base 2 is 1111011 and ⌊log2(123)+1⌋=7
+
+ Complexity classes:
+ - O(logn): log2n equals the number of times n must be divided by 2 to get 1.
+ 
