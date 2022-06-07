@@ -43,5 +43,5 @@ typedef pair <int, int> pi;
  Complexity classes:
  - O(logn): log2n equals the number of times n must be divided by 2 to get 1.
  - O(2^n): Indicates that the algorithm iterates through all subsets of the input elements. eg. subsets of {1,2,3} are ∅, {1}, {2}, {3}, {2,3}, {1,3}, {1,2}, {1,2,3}
- - O(n!): Indicates that the algo iterates through all permutations of the input elements. eg. permutations of {1,2,3} are (1,2,3), (1,3,2), ()
+ - O(n!): Indicates iteration through all permutations of the input elements. eg. permutations of {1,2,3} are (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,2,1), (3,1,2)
  
