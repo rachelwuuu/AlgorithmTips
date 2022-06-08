@@ -45,6 +45,11 @@ typedef pair <int, int> pi;
  - O(2^n): Indicates that the algorithm iterates through all subsets of the input elements. eg. subsets of {1,2,3} are ∅, {1}, {2}, {3}, {2,3}, {1,3}, {1,2}, {1,2,3}
  - O(n!): Indicates iteration through all permutations of the input elements. eg. permutations of {1,2,3} are (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,2,1), (3,1,2)
  
+ <table>
+     <tr>
+      <th>input size</th>
+     </tr>
+ </table>
  input size | required time complexity  
  -------------------------------------  
  n<=10      | O(n!)   
