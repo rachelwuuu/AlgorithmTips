@@ -48,13 +48,30 @@ typedef pair <int, int> pi;
  <table>
      <tr>
       <th>input size</th>
+      <th>required time complexity</th>
+     </tr>
+     <tr>
+      <th>n<=10</th>
+       <th>O(n!)</th>
+     </tr>
+     <tr>
+      <th>n<=20</th>
+       <th>O(2^n)</th>
+     </tr>
+      <tr>
+      <th>n<=500</th>
+       <th>O(n^3)</th>
+     </tr>
+     <tr>
+      <th>n<=5000</th>
+       <th>O(n^2)</th>
+     </tr>
+     <tr>
+      <th>n<=10^6</th>
+       <th>O(nlogn) or O(n)</th>
+     </tr>
+     <tr>
+      <th>n is large</th>
+       <th>O(1) or O(logn)</th>
      </tr>
  </table>
- input size | required time complexity  
- -------------------------------------  
- n<=10      | O(n!)   
- n<=20      | O(2^n)  
- n<=500     | O(n^3)  
- n<=5000    | O(n^2)  
- n<=10^6    | O(nlogn) or O(n)  
- n is large | O(1) or O(logn)  
