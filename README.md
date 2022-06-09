@@ -75,3 +75,6 @@ typedef pair <int, int> pi;
        <th>O(1) or O(logn)</th>
      </tr>
  </table>
+
+ <h1>Sorting Algorithms</h1>
+ - O(n^2): Bubble Sort, an algorithm that always swaps consecutive elements in the array.
