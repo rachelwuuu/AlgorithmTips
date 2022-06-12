@@ -81,5 +81,5 @@ typedef pair <int, int> pi;
  - O(nlogn): Merge Sort. If a=b, don't do anything, because subarray is already sorted. Calculate the position of the middle element: k=⌊(a+b)/2⌋. Recursively sort the subarray array[a...k]. Recursively sort the subarray array[k+1...b]. Merge the sorted array array[a...k] and array[k+1...b] into a sorted subarray array[a...b] </br>
  - O(n): Counting Sort, an algorithm that calculates how many times an element appears in the array.</br>
  - C++ sort function:  </br>
-  - sort(myVectorOrString.begin(), myVectorOrString.end()): sort a vector/string in increasing order.   </br>
-  - sort(myVectorOrString.rbegin(), myVectorOrString.rend()): sort a vector/string in decreasing order. </br>
+     - sort(myVectorOrString.begin(), myVectorOrString.end()): sort a vector/string in increasing order.   </br>
+     - sort(myVectorOrString.rbegin(), myVectorOrString.rend()): sort a vector/string in decreasing order. </br>
