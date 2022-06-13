@@ -23,7 +23,7 @@ long long b = (long long) a * a;
       printf("%.20f\n", x); //0.99999999999999988898
 
 <b>Shortening code</b>  
-eg. typedef vector <int<int>> vi;  
+eg. typedef vector <in<int>> vi;  
 typedef pair <int, int> pi;  
 
 <b>Sum formulas</b>  </br>
@@ -85,5 +85,5 @@ typedef pair <int, int> pi;
      	- sort(myVectorOrString.rbegin(), myVectorOrString.rend()): sort a vector/string in decreasing order. </br>
       - vector<>pair<int,int> v;</br>
         v.push_back(1,6);</br>...</br>
-        sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple<<int, int, int></br>
+        sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple<<>int, int, int></br>
        
