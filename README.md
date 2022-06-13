@@ -83,7 +83,7 @@ typedef pair <int, int> pi;
  	• C++ sort function:  </br>
      	- sort(myVectorOrString.begin(), myVectorOrString.end()): sort a vector/string in increasing order.   </br>
      	- sort(myVectorOrString.rbegin(), myVectorOrString.rend()): sort a vector/string in decreasing order. </br>
-      - vector<pair < int, int >> v;</br>
+      - vector < pair < int, int > > v;</br>
         v.push_back(1,6);</br>...</br>
         sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple< int, int, int ></br>
        
