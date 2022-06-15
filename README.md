@@ -87,3 +87,5 @@ typedef pair <int, int> pi;
         v.push_back(1,6);</br>...</br>
         sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple< int, int, int ></br>
        
+       
+auto k=lower_bound(array, array+n, x);//returns pointer to the first array element whose value is at least x.
