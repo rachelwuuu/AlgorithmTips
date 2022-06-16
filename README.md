@@ -86,6 +86,12 @@ typedef pair <int, int> pi;
       - vector < pair < int, int > > v;</br>
         v.push_back(1,6);</br>...</br>
         sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple< int, int, int ></br>
+      - can define comparison functions by ourselves. This function sorts first by length and secondarily by alphabetical order.
+        bool comp(string a, string b){
+            if (a.size()!=b.size()) return a.size()<b.size();
+            return a<b;
+        }
+        sort(v.begin(), v.end(), comp)
        
        
 auto k=lower_bound(array, array+n, x);//returns pointer to the first array element whose value is at least x.
