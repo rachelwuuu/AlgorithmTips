@@ -89,7 +89,7 @@ typedef pair <int, int> pi;
       - can define comparison functions by ourselves. This function sorts first by length and secondarily by alphabetical order.</br>
          bool comp(string a, string b){</br>
                      if (a.size()!=b.size()) return a.size() < b.size();</br>
-                     return a < b;</br>
+ &nbsp         return a < b;</br>
          }</br>
          sort(v.begin(), v.end(), comp);</br>
        
