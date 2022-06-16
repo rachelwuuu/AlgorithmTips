@@ -88,8 +88,8 @@ typedef pair <int, int> pi;
         sort(v.begin(), v.end()); //sort by the first int, then by second int, etc. same for tuple< int, int, int ></br>
       - can define comparison functions by ourselves. This function sorts first by length and secondarily by alphabetical order.</br>
 &nbsp    bool comp(string a, string b){</br>
- &nbsp&nbsp         if (a.size()!=b.size()) return a.size() < b.size();</br>
- &nbsp&nbsp     return a < b;</br>
+ &nbsp&nbsp&nbsp         if (a.size()!=b.size()) return a.size() < b.size();</br>
+ &nbsp&nbsp&nbsp     return a < b;</br>
 &nbsp    }</br>
 &nbsp     sort(v.begin(), v.end(), comp);</br>
        
